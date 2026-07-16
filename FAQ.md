@@ -1,7 +1,7 @@
 # ZQM Attestation Briefs — FAQ
 
 ### Is this a commercial product page?
-No. This repo is a public methodology reference. Commercial terms are in `ZQM-Computing/zqm-attestation-toolkit`.
+No. This repo is a public methodology reference. Commercial terms are in `ZQM-Labs/zqm-attestation-toolkit`.
 
 ### Does this repo contain licensed source code?
 No. Docs only. Code lives in `zqm-attestation-toolkit`.

@@ -1,24 +1,24 @@
-# ZQM Attestation Briefs
+# ZQM-Computing attestation briefs
 
-Public read-only reference pack for endpoint attestation methodology.
+[![Sponsor ZQM-Computing](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&color=red&logo=githubsponsors&link=https://github.com/sponsors/ZQM-Computing)](https://github.com/sponsors/ZQM-Computing)
 
-Contents
-- `README.md` — workflow overview
-- `SAMPLE_ATTESTATION_REPORT.md` — synthetic report structure (scrubbed, no real host data)
-- `REDACTION_GUIDE.md` — what to redact before sharing signed reports externally
-- `QUICKSTART.md` — reading a report, verifying hashes, importing JSON
-- `CONTROL_OVERVIEW.md` — control coverage brief mapped to attestation outputs
-- `FAQ.md` — MSP/auditor/common questions
+Buyer-facing methodology and sample outputs for Windows endpoint attestation. These briefs explain what the toolkit probes, why each lane matters, and what a buyer should expect in a final report.
 
-Audience
-- Auditors reviewing methodology
-- MSPs assessing report format
-- Compliance teams comparing control coverage
-- Customers evaluating purchase decision
+## Usage
 
-License
-- Operational docs: CC-BY-4.0
-- Report templates: MIT
-- Product code/commercial terms: see upstream repo licenses
+Review before purchase to understand scope, samples, verification path, and evidence retention rules.
 
-No secrets. No internal paths. No private host data.
+## Contact
+
+ZQM Computing — zqmcomputing@gmail.com
+
+## Related ZQM repos
+
+- **[zqm-attestation-toolkit](https://github.com/ZQM-Labs/zqm-attestation-toolkit)** — the forensic PowerShell suite these briefs document. Checksummed, CMS-signed machine-health reports for auditors, MSPs, and compliance teams.
+- **[zqm-public-tools](https://github.com/ZQM-Labs/zqm-public-tools)** — sanitized PowerShell helpers used by the toolkit.
+- **[zqm-security-policy](https://github.com/ZQM-Labs/zqm-security-policy)** — baseline Windows endpoint posture rules.
+- **[zqm-shield](https://github.com/ZQM-Labs/zqm-shield)** — lightweight Windows endpoint security helpers.
+
+## Support
+
+Development is funded commercially — see the toolkit's [FUNDING](https://github.com/ZQM-Labs/zqm-attestation-toolkit/blob/main/.github/FUNDING.yml) for sponsorship, procurement, and no-KYC options. You can also [sponsor ZQM-Computing on GitHub](https://github.com/sponsors/ZQM-Computing).
