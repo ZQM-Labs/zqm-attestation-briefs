@@ -1,5 +1,8 @@
 # ZQM-Computing attestation briefs
 
+[![CI](https://github.com/ZQM-Labs/zqm-attestation-briefs/actions/workflows/ci.yml/badge.svg)](https://github.com/ZQM-Labs/zqm-attestation-briefs/actions/workflows/ci.yml) [![Tests](https://github.com/ZQM-Labs/zqm-attestation-briefs/actions/workflows/tests.yml/badge.svg)](https://github.com/ZQM-Labs/zqm-attestation-briefs/actions/workflows/tests.yml) [![Ruff](https://github.com/ZQM-Labs/zqm-attestation-briefs/actions/workflows/ci.yml/badge.svg)](https://github.com/ZQM-Labs/zqm-attestation-briefs/actions/workflows/ci.yml) [![mypy](https://github.com/ZQM-Labs/zqm-attestation-briefs/actions/workflows/ci.yml/badge.svg)](https://github.com/ZQM-Labs/zqm-attestation-briefs/actions/workflows/ci.yml)
+
+
 <p align="left">
   <img src="https://github.com/ZQM-Labs/zqm-attestation-briefs/actions/workflows/ci.yml/badge.svg" alt="CI" />
   <img src="https://img.shields.io/badge/tests-passing-brightgreen" alt="Tests" />
