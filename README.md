@@ -35,3 +35,10 @@ This repository is free for personal and audit use under its stated license. Ent
 - Contact: zqmcomputing@gmail.com
 
 All deliverables are CMS-signed and independently verifiable.
+
+## Related Repositories
+
+- [ZQM-Labs/zqm-attestation-toolkit](https://github.com/ZQM-Labs/zqm-attestation-toolkit) — Windows attestation, BitLocker, TPM, DFIR, and AI integrity
+- [ZQM-Labs/pqc-readness-toolkit](https://github.com/ZQM-Labs/pqc-readiness-toolkit) — post-quantum cryptography readiness for Windows
+- [ZQM-Labs/zqm-public-tools](https://github.com/ZQM-Labs/zqm-public-tools) — open-source Windows security, DFIR, and PowerShell utilities
+- [ZQM-Labs/awesome-windows-attestation](https://github.com/ZQM-Labs/awesome-windows-attestation) — curated DFIR, BitLocker, TPM, and compliance resources
