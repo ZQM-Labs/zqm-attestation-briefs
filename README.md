@@ -12,6 +12,9 @@ Review before purchase to understand scope, samples, verification path, and evid
 
 ZQM Computing — zqmcomputing@gmail.com
 
+## Integration: zqm-intel-platforms
+Attestation briefs do not vendor `zqm-intel-platforms`; they document the reports that `zqm-attestation-toolkit` and `zqm-intel-platforms` produce. Use these briefs as the buyer-facing evidence catalog for SIEM/attestation exports.
+
 ## Related ZQM repos
 
 - **[zqm-attestation-toolkit](https://github.com/ZQM-Labs/zqm-attestation-toolkit)** — the forensic PowerShell suite these briefs document. Checksummed, CMS-signed machine-health reports for auditors, MSPs, and compliance teams.

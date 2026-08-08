@@ -1,0 +1,10 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.backends.legacy:build"
+[project]
+name = "zqm-attestation-briefs"
+version = "0.1.0"
+description = "Buyer-facing methodology and sample outputs for Windows endpoint attestation"
+license = {text = "MIT"}
+requires-python = ">=3.11"
+dependencies = ["markdown>=3.6"]
