@@ -1,19 +1,10 @@
 # ZQM-Computing attestation briefs
 
-[![Sponsor ZQM-Computing](https://img.shields.io/static/v1?label=Sponsor&message=%E2%9D%A4&color=red&logo=githubsponsors&link=https://github.com/sponsors/ZQM-Computing)](https://github.com/sponsors/ZQM-Computing)
-
 Buyer-facing methodology and sample outputs for Windows endpoint attestation. These briefs explain what the toolkit probes, why each lane matters, and what a buyer should expect in a final report.
 
 ## Usage
 
 Review before purchase to understand scope, samples, verification path, and evidence retention rules.
-
-## Contact
-
-ZQM Computing — zqmcomputing@gmail.com
-
-## Integration: zqm-intel-platforms
-Attestation briefs do not vendor `zqm-intel-platforms`; they document the reports that `zqm-attestation-toolkit` and `zqm-intel-platforms` produce. Use these briefs as the buyer-facing evidence catalog for SIEM/attestation exports.
 
 ## Related ZQM repos
 
@@ -35,3 +26,7 @@ This repository is free for personal and audit use under its stated license. Ent
 - Contact: zqmcomputing@gmail.com
 
 All deliverables are CMS-signed and independently verifiable.
+
+## Integration: zqm-intel-platforms
+
+Attestation briefs do not vendor `zqm-intel-platforms`; they document the reports that `zqm-attestation-toolkit` and `zqm-intel-platforms` produce. Use these briefs as the buyer-facing evidence catalog for SIEM/attestation exports.

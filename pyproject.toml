@@ -1,10 +1,29 @@
 [build-system]
 requires = ["setuptools>=68", "wheel"]
-build-backend = "setuptools.backends.legacy:build"
+build-backend = "setuptools.build_meta"
+
 [project]
 name = "zqm-attestation-briefs"
 version = "0.1.0"
 description = "Buyer-facing methodology and sample outputs for Windows endpoint attestation"
-license = {text = "MIT"}
+readme = "README.md"
+license = "MIT"
 requires-python = ">=3.11"
-dependencies = ["markdown>=3.6"]
+dependencies = [
+    "zqm-intel-platforms>=0.1.0",
+    "markdown>=3.6",
+]
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["zqm*"]
+exclude = ["Python*", "samples*", "tests*"]
+
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+ignore = ["Python", "pythoncore-3.14-64", "samples", "data"]
+
+[project.urls]
+Homepage = "https://github.com/ZQM-Labs/zqm-attestation-briefs"
+Repository = "https://github.com/ZQM-Labs/zqm-attestation-briefs.git"
